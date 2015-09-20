@@ -1,0 +1,23 @@
+<dashboard script="demo_viz.js">
+    <label>Multigraph Dashboard</label>
+
+    <row>
+        <html>
+            <div id="hook"></div>
+        </html>
+    </row>
+    <row>
+        <panel>
+          <chart>
+            <title>Details</title>
+            <search>
+              <query>index=cityweather | search $filter$ | timechart span=1w avg("Mean TemperatureF") by source</query>
+              <earliest>0</earliest>
+              <latest></latest>
+            </search>
+            <option name="charting.chart">line</option>
+          </chart>
+        </panel>
+    </row>
+
+</dashboard>

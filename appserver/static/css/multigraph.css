@@ -1,0 +1,31 @@
+.line {
+  fill: none;
+  /*stroke: rgba(0,0,255, 1.0);*/
+  stroke-width: 1.5px;
+}
+
+.area {
+    /*fill: rgba(0,0,255, 0.3);*/
+  /*fill: #e7e7e7;*/
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.minigraph:hover {
+    background: #D6F2FF;
+}
+
+.action {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*#controls {
+    position: absolute;
+    right: 0px;
+}*/

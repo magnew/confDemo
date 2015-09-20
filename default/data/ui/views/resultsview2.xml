@@ -1,0 +1,11 @@
+<dashboard script="resultsview_page2.js">
+    <label>Results View</label>
+
+    <row>
+        <html>
+            <div id="bar"></div>
+            <div id="hook"></div>
+        </html>
+    </row>
+
+</dashboard>

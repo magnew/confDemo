@@ -5,3 +5,7 @@ modtime = 1442511953.586032000
 [app/launcher]
 version = 6.3.0
 modtime = 1442511953.588207000
+
+[views/demoviz]
+version = 6.3.0
+modtime = 1442780838.373658000

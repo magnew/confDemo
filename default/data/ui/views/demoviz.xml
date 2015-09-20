@@ -1,0 +1,10 @@
+<dashboard script="demo_viz.js">
+    <label>Interactive Graphs</label>
+
+    <row>
+        <html>
+            <div id="hook"></div>
+        </html>
+    </row>
+
+</dashboard>

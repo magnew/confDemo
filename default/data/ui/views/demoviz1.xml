@@ -1,0 +1,10 @@
+<dashboard script="demo_viz1.js">
+    <label>Multigraph</label>
+
+    <row>
+        <html>
+            <div id="hook"></div>
+        </html>
+    </row>
+
+</dashboard>

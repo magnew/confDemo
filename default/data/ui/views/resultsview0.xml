@@ -1,5 +1,5 @@
-<dashboard script="demoviz_page1.js">
-    <label>Multigraph</label>
+<dashboard script="resultsview_page0.js">
+    <label>Results View</label>
 
     <row>
         <html>

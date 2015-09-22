@@ -6,7 +6,7 @@ require.config({
 
 require([
     'jquery',
-    'app/confDemo/multigraph',
+    'app/confDemo/multigraph2',
     'splunkjs/mvc/searchmanager',
     'splunkjs/mvc/utils',
     'splunkjs/mvc/simplexml/ready!'

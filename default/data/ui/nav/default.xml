@@ -1,4 +1,4 @@
 <nav search_view="search" color="#2E5CB8">
-  <view name="search"/>
-  <view name="demoviz" default="true"/>
+  <view name="search" default="true"/>
+  <view name="demoviz1"/>
 </nav>

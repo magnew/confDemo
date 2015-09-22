@@ -77,7 +77,7 @@ define([
         },
 
         updateView: function(viz, data) {
-            console.log(data);
+            this.$el.empty();            
             var locations = data;
             var margin = {top: 8, right: 6, bottom: 2, left: 6},
                 width = 300 - margin.left - margin.right,

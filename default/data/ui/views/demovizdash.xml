@@ -1,4 +1,4 @@
-<dashboard script="demo_viz.js">
+<dashboard script="demoviz_page2.js">
     <label>Multigraph Dashboard</label>
 
     <row>

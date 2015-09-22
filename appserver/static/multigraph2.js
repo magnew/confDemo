@@ -96,7 +96,7 @@ define([
             this.addControlsToEl(this.$el);
             var locations = data;
             var layout = this.settings.get('layout');
-            var margin = {top: 8, right: 6, bottom: 2, left: 6},
+            var margin = {top: 3, right: 6, bottom: 3, left: 6},
                 width = this.getWidthForLayout(layout) - margin.left - margin.right,
                 height = this.getHeightForLayout(layout) - margin.top - margin.bottom;
 
@@ -256,9 +256,6 @@ define([
                 </div>\
                 <div id="stack-button" class="action" >\
                     <span class="icon-menu"/>\
-                </div>\
-                <div id="combine-button" class="action" >\
-                    <span class="icon-chart-area"/>\
                 </div>\
             </div>');
 

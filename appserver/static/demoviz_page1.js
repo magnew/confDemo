@@ -19,7 +19,8 @@ require([
 
     var graphViz = new MultiGraph({
         'id': 'graphViz',
-        'managerid': 'mainSearch'
+        'managerid': 'mainSearch',
+        'el': $('#hook')
     });
 
 });

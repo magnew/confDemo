@@ -1,16 +1,9 @@
-require.config({
-    paths: {
-        "app": "../app"
-    }
-});
-
 require([
     'jquery',
-    'app/confDemo/resultsview',
+    '../app/confDemo/resultsview1',
     'splunkjs/mvc/searchmanager',
-    'splunkjs/mvc/utils',
     'splunkjs/mvc/simplexml/ready!'
-],function($, ResultsView, SearchManager, utils){
+],function($, ResultsView, SearchManager){
     
     var mainSearch = new SearchManager({
         'id': 'mainSearch',

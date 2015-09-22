@@ -1,0 +1,11 @@
+<dashboard script="simpleviz_page0.js">
+    <label>Simple Viz</label>
+
+    <row>
+        <html>
+            <div id="bar"></div>
+            <div id="hook" style="margin:10px;"></div>
+        </html>
+    </row>
+
+</dashboard>

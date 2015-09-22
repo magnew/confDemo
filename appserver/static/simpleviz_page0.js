@@ -1,14 +1,14 @@
 require([
     'jquery',
-    '../app/confDemo/resultsview2',
+    '../app/confDemo/simpleviz0',
     'splunkjs/mvc/searchmanager',
     'splunkjs/mvc/searchbarview',
     'splunkjs/mvc/simplexml/ready!'
-],function($, ResultsView, SearchManager, SearchBar){
+],function($, SimpleViz, SearchManager, SearchBar){
     
     var mainSearch = new SearchManager({
         'id': 'mainSearch',
-        'search': 'index=cityweather'
+        'search': 'index=cityweather | stats avg("Mean TemperatureF") by source'
     });
 
     var mainSearchBar = new SearchBar({
@@ -21,8 +21,8 @@ require([
         mainSearch.set('search', mainSearchBar.val());
     });
 
-    var resultsview = new ResultsView({
-        'id': 'resultsview',
+    var simpleviz = new SimpleViz({
+        'id': 'simpleviz',
         'managerid': 'mainSearch',
         'el': $('#hook')
     });

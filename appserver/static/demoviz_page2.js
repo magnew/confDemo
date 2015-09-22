@@ -14,7 +14,7 @@ require([
 
     var mainSearch = new SearchManager({
         'id': 'mainSearch',
-        'search': 'index=cityweather | timechart span=1w avg("Mean TemperatureF") by source'
+        'search': 'index=cityweather | timechart limit=0 span=1w avg("Mean TemperatureF") by source'
     });
 
     var graphViz = new MultiGraph({

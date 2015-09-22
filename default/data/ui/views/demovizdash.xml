@@ -11,7 +11,7 @@
           <chart>
             <title>Details</title>
             <search>
-              <query>index=cityweather | search $filter$ | timechart span=1w avg("Mean TemperatureF") by source</query>
+              <query>index=cityweather | search $filter$ | timechart limit=0 span=1w avg("Mean TemperatureF") by source</query>
               <earliest>0</earliest>
               <latest></latest>
             </search>
